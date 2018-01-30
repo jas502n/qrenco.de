@@ -25,7 +25,8 @@ but if you want to install it locally, do the following steps:
 
 ```
 	$ git clone https://github.com/chubin/qrenco.de
-        $ cd qrenco.de
+        $ cd qrenco.de
+        $ pip install virtualenv
 	$ virtualenv ve
 	$ ve/bin/pip install -r requirements.txt
 	$ sudo apt-get install libqrenv
