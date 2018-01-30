@@ -1,8 +1,6 @@
 ## Usage
 ```
-
 printf "flag{df3408fsdn254uv0345}" | curl -F-=\<- qrenco.de |lolcat -F 0.3
-
 ```
 ![](qr.jpg)
 
