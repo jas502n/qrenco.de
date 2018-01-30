@@ -1,4 +1,10 @@
 ## Usage
+```
+
+printf "flag{df3408fsdn254uv0345}" | curl -F-=\<- qrenco.de |lolcat -F 0.3
+
+```
+![](qr.jpg)
 
 The service is used to generate QR-codes for strings in a UNIX/Linux console
 using curl/httpie/wget or similar tools. 
